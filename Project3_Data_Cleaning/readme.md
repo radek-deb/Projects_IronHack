@@ -21,7 +21,7 @@ The dataset which was analysed presented the shore pollution on the cost of Aust
 ![Queensland_map](https://media.australias.guide/file/sitemedia/wp-content/uploads/sites/5/qld-regions2.jpg)
 
 ## Workflow/Organisation
-The organisation of the project was done using Trello (the link to the workspace is presented below as well as the workflow chart).
+The organisation of the project was done using Trello (the link to the workspace is presented below).
 The project was  realized and followed subseuent steps:
 
 1. Importing given data set to Pandas.
@@ -93,5 +93,5 @@ Ther result of the project are presented in:
 ## Links
 
 [Repository](https://github.com/radek-deb/Projects/tree/main/Project3_Data_Cleaning)  
-[Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)  
+[Slides](https://docs.google.com/presentation/d/1HE_tBS1UMrVuSUPmsys7mDUCHhaTbgT1/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)  
 [Trello](https://trello.com/b/KCDt4Wui/shore-pollution)  
