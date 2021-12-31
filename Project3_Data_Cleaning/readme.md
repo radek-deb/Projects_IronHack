@@ -28,18 +28,18 @@ The data set was given in 5 different files and with diffrent fromats (.csv and 
 The data was presented in 8 columns: Date (diffrent formating), Region (should contain only 5 unique values), Source (should contain only 3 unique values), Ship Type (should contain only 3 unique values), Area (should conatin only 2 unique values), Location, Pollutant, Estimated Litres (should be a number, but was a sting with variuos content).
 The data with the exceptopn of 'Date' column was categorical.
 3. Data Cleaning
-    3.1. Drop columns 
+      3.1. Drop columns 
     I decided to drop 2 columns i.e. Location and Ship Type, because: 
     - Location: this column presents values unique for each accident and can be replaced (in a more general manner) by the Region and Area columns.
     - Ship Type: The column Source already shows if the origin of a pollution was a ship. At the same time this is the column with the most missing values. Therefore,I decided to drop it.
-    3.2. Date formate
+      3.2. Date formate
     The column 'Date' had diffrent formatiing in the files, thus it was necessary to unify that. There were present also some typos like 219 instead of 2019. There were 2 rows like that and they were dropped.
-    3.3. Missing values
+      3.3. Missing values
     The missing values were presented in three columns: Source (7), Pollutant (2) and Estimated Litres (21).
     - Source: I replaced missing values with 'Unknown' as it can be coming only from Land, Ship r Unknown SOurce
     - Pollutant: There were only 2 values missing, so I droped these 2 rows. 
     - Estimated Litres: I also decided to drop these rows as there was only 21 of them. 
-    3.4. Cleaning the text 
+      3.4. Cleaning the text 
     Firstly I wrote a function that would remove spaces at the begining and end of the string and will unify the text in terms of case size. 
     Then I went through every column.
     - Region: This column should contain only 5 unique values, but it contained 14. There were some typos as well as smetimes insted of a Regions name, port name was gived. I created a dictionary which allowd to assign incorrect values to the correct region names. 
@@ -52,9 +52,9 @@ The data with the exceptopn of 'Date' column was categorical.
             - if there was incorect unit m, g or kg then these values were converted to 0.
             - if the range was given, the mean value was calculated
             - Finally, when there were only numbers left. All of the values were converted to floats.
-     3.5. Removing duplicates
+       3.5. Removing duplicates
      Two rows like that were found
-     3.6. Outliers
+       3.6. Outliers
      I created a plots which showed for every column if there were any outliers.
 4. Encoding non numerical data
 After data cleaning the non numericla data were presented in columns: Region, Source, Area, Pollutant. Since all of these data were not ordinal I could use dummy encoder (One Hot Encoding) in order to encode these columns.
@@ -78,6 +78,6 @@ Ther result of the project are presented in:
 
 ## Links
 
-[Repository](https://github.com/radek-deb/Project1-MasterMind-Game)  
+[Repository](https://github.com/radek-deb/Projects/tree/main/Project3_Data_Cleaning)  
 [Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)  
 [Trello](https://trello.com/b/KCDt4Wui/shore-pollution)  
