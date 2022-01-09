@@ -41,9 +41,9 @@ Ther result of the project are presented in:
 - readme.md file | Description of the project and the prcoess.
 - jupyter notebook: 1.Data Cleaning | Code which was used to clean the data with comments.
 - jupyter notebook: 2.EDA | Descriptive Statistics Review
-- jupyter notebook: Graph Tamplate | Graphs which were prepared using clean data
+- jupyter notebook: Graph Template | Graphs which were prepared using clean data
 - png files which depict created graphs
 
 ## Links
 
-[Repository](https://github.com/radek-deb/Projects/tree/main/Project3_Data_Cleaning)
+[Repository](https://github.com/radek-deb/Projects_IronHack/tree/main/Project4_Graph_Templates)
