@@ -7,12 +7,12 @@
 
 ## Content
 - [](#)
-- [MasterMind Game](#mastermind-game)
+- [Money Transfers - PayLocator](#payLocator)
 	- [Content](#content)
 	- [Project Description](#project-description)
-	- [Rules](#rules)
+	- [Requirements](#requirements)
 	- [Workflow](#workflow)
-	- [Organization](#organization)
+	- [Dashboard/Widgets Description](#widgets)
 	- [Links](#links)
 
 ## Project Description
