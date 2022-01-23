@@ -182,7 +182,7 @@ As a bank customer I want to know which banks are causing delays in the money tr
 
 ## Links
 
-[Dashboard](https://prod-uk-a.online.tableau.com/t/lab24/views/Project6_16427980777000/Dashboard1?:show[…]:display_count=n&:showVizHome=n&:origin=viz_share_link)
+[Dashboard](https://public.tableau.com/app/profile/radek7851/viz/Project6_16429472543890/Dashboard1?publish=yes)
 [Data_in_Googlesheets](https://docs.google.com/spreadsheets/d/1IGpgipGi_JbL6SQ2Un56PJ5iDwxgpUXv/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
 [Repository](https://github.com/radek-deb/Project1-MasterMind-Game)
 [Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
