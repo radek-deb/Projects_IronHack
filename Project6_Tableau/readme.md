@@ -184,6 +184,6 @@ As a bank customer I want to know which banks are causing delays in the money tr
 
 [Dashboard](https://public.tableau.com/app/profile/radek7851/viz/Project6_16429472543890/Dashboard1?publish=yes)
 [Data_in_Googlesheets](https://docs.google.com/spreadsheets/d/1IGpgipGi_JbL6SQ2Un56PJ5iDwxgpUXv/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
-[Repository](https://github.com/radek-deb/Project1-MasterMind-Game)
-[Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
+[Repository](https://github.com/radek-deb/Projects_IronHack/tree/main/Project6_Tableau)
+[Slides](https://docs.google.com/presentation/d/1Hungn7ceOIIxM5_oRSgUydTRCqZmNBTp/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
 [Trello](https://trello.com/b/NiaCEmTf/projectweek6-sandrine-radek)
