@@ -92,6 +92,7 @@ Splitting into 3 classes insted of 7 improved significantly scores of each model
 Ridge Classifier ~ CategoricalNB < SVC << Extra Trees Classifier.
 
 As 3 out of 4 tested models work good with binary data, we decided to re-test the models for data separated into 2 classes: good and bad movies. This infact improved the score of each model. They performance followed the sequence:
+
 Ridge Classifier < CategoricalNB ~ SVC << Extra Trees Calassifier (79% accuracy)
 
 
@@ -103,6 +104,6 @@ In all 3 tested cases the best performance was shown by the Extra Trees Classifi
 ## Links
 
 [Dashboard](https://prod-uk-a.online.tableau.com/t/lab24/views/Project6_16427980777000/Dashboard1?:show[…]:display_count=n&:showVizHome=n&:origin=viz_share_link)
-[Repository](https://github.com/radek-deb/Project1-MasterMind-Game)
+[Repository](https://github.com/radek-deb/Projects_IronHack/tree/main/Project7_Supervised_Learning)
 [Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
-[Trello](https://trello.com/b/NiaCEmTf/projectweek6-sandrine-radek)
+[Trello](https://trello.com/b/0CaafrSY/project7group1)
