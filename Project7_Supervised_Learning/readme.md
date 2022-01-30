@@ -6,15 +6,23 @@
 *[Data Analytics, Paris, 28.01.2022]*
 
 ## Content
-- [](#)
-- [Supervised Learning with Netflix movies dataset](#movies)
+
+- [Project week 7 | Supervised Learning](#project-week-7--supervised-learning)
 	- [Content](#content)
 	- [Project Description](#project-description)
 	- [Requirements](#requirements)
 	- [Workflow](#workflow)
-	- [Dashboard Description](#dashboard)
-    - [Models](#model)
+	- [Dashboard Description](#dashboard-description)
+	- [Models](#models)
+		- [Ridge Classifier](#ridge-classifier)
+		- [SVC](#svc)
+		- [CategoricalNB](#categoricalnb)
+		- [Extra Trees Classifier](#extra-trees-classifier)
+		- [Results - best model](#results---best-model)
 	- [Links](#links)
+
+
+![Dashboard](./Figures/Dashboard.png)
 
 ## Project Description
 The aim of this project is to invesitgate 4 diffrent models for supervised machine learnig. As a dataset the Netflix movies data was used. Based on the analysis of the data dashboard was prepared which showed the most important parameters/charts which describe dataset.
@@ -49,7 +57,42 @@ The whole work in the project was organised using Trello platform. The main step
 
 ## Dashboard Description
 
-We created a dashboard form a perspective of a person who tracks the transactions, so it is either a bank worker or a person who is intrested in bank money crossboarder transfers as it is important for their business; For that we developed 12 wigdets, including 8 numbers and 4 charts, which are interactive and there is a possibility to fileter the data. The description of each widget (also form the user story) is presented below. The link to the Dashboard, slides, Git-Hub repo and Trello can be found at the bottom of the page.
+Below is presented the description of the Dashboard and the KPI presented on it. The KPIs vere created from the user perspective. Thus below are presented the user stories for each KPI.
+
+
+
+| **KPI 1 – Number of movies**                                                       |
+|--------------------------------------------------------------------------------|
+| As a buyer manager at Netflix                                                  |
+| I want the number of movies                                                    |
+| So that I know the total number of movies offered to our consumers to vote for |
+| **KPI 2 – Average rating per kind**                                                                         |
+| As a buyer manager at Netflix                                                                           |
+| I want the average rating per kind                                                                      |
+| So that I know which kind is preferred by our consumers                                                 |
+|                                                                                                         |
+| **KPI 3 – Top 10 Countries with the longest movies**                                                        |
+| As a buyer manager at Netflix                                                                           |
+| I want the top 10 Countries with the longest movies                                                     |
+| So that I know the countries producing the longest movies                                               |
+|                                                                                                         |
+| **KPI 4 – Average runtime per kind**                                                                        |
+| As a buyer manager at Netflix                                                                           |
+| I want the average runtime per kind                                                                     |
+| So that I know which kind of movies are longer and if there is a correlation with the most liked movies |
+|                                                                                                         |
+| **KPI 5 – Movies per country**                                                                              |
+| As a buyer manager at Netflix                                                                           |
+| I want the number of movies per country                                                                 |
+| So that I know how many movies are produced per country                                                 |
+|                                                                                                         |
+| **KPI 6 – Number of votes per year**                                                                        |
+| As a buyer manager at Netflix                                                                           |
+| I want the number of votes per year                                                                     |
+| So that I know when the people voted the most and the least                                             |
+
+
+
 
 ## Models
 
@@ -103,7 +146,7 @@ In all 3 tested cases the best performance was shown by the Extra Trees Classifi
 
 ## Links
 
-[Dashboard](https://prod-uk-a.online.tableau.com/t/lab24/views/Project6_16427980777000/Dashboard1?:show[…]:display_count=n&:showVizHome=n&:origin=viz_share_link)
+[Dashboard](https://public.tableau.com/app/profile/ingrid.mongori.yondo/viz/Netflix-KeyMetrics/Tableaudebord22?publish=yes7)
 [Repository](https://github.com/radek-deb/Projects_IronHack/tree/main/Project7_Supervised_Learning)
-[Slides](https://docs.google.com/presentation/d/1QL0klNy47-UhiYv4tQwaom0f-TvZ5F_x/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
+[Slides](https://docs.google.com/presentation/d/1-UawEBPkw1g8A-YasbdqLyOJM2S6boQm/edit?usp=sharing&ouid=102785489791173764779&rtpof=true&sd=true)
 [Trello](https://trello.com/b/0CaafrSY/project7group1)
