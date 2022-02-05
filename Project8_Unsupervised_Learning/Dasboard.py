@@ -114,7 +114,7 @@ labels=dict(day_of_week="Day of week", count="Count"))
 data_time = data_sample.groupby('time_of_day')['week'].agg('count')
 data_time = pd.DataFrame(data_time)
 
-fig_pie = px.pie(data_frame=data_time, values="week", names=data_time.index,color_discrete_sequence=px.colors.sequential.RdBu_r, title='Number of rides per time of the day and hour')
+fig_pie = px.pie(data_frame=data_time, values="week", names=data_time.index,color_discrete_sequence=px.colors.sequential.RdBu_r, title='Number of rides per time of the day')
 
 
 ### line chart
@@ -142,20 +142,20 @@ av_rides_per_day = int(np.mean(rides_per_day))
 fig_metrics = go.Figure()
 
 fig_metrics.add_trace(go.Indicator(
-    mode = "number+delta",
+    mode = "number",
     value = n_rides,
 	title = {'text': "Total number of rides"},
     domain = {'row': 0, 'column': 1}))
 fig_metrics.add_trace(go.Indicator(
-    mode = "number+delta",
+    mode = "number",
     value = av_rides_per_day,
 	title = {'text': 'Average number of rides per day'},
     domain = {'row': 1, 'column': 1}))
 fig_metrics.update_layout(
     grid = {'rows': 2, 'columns': 1, 'pattern': "independent"},
     template = {'data' : {'indicator': [{
-        'mode' : "number+delta+gauge",
-        'delta' : {'reference': 90}}]
+        'mode' : "number",
+        }]
                          }})
 
 #Layout of the page
